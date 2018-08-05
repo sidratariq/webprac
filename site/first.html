@@ -1,0 +1,96 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <style>
+        .highlight{
+            background-color:green;
+        }
+        p.highlight{
+            font-style: italic;
+        }
+        .mainpoint.highlight {
+            color:red;
+            background: black;
+        }
+
+        section > article{
+            color: green;
+            font-size: 24px;
+        }
+        
+        section > h2{
+            color: green;
+
+        }
+
+        section li{
+            color: green;
+
+        }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+    </head>         
+    <body>
+        <h1 class="highlight"> Element with class selector</h1>
+        <p class="">
+        lala land be kind love others and be happy  
+            work hard to achieve your goals learn how to work understress
+        </p>
+        <p class="highlight">
+            This is p with class highlight
+        </p>
+
+        <div class="mainpoint highlight">
+            This is the main point of entire article
+        </div>
+
+        <span>_______________________________________________________________________________________________________________________________</span>
+        <h2>Child selector</h2>
+        <section>
+            <h2>SubHeading 1</h2>
+            <div>
+                <article>
+                    Article inside div inside selection
+                </article>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <article>
+                Article as a direct child of the Section element
+            </article>
+        </section>
+        <h2>SubHeading</h2>
+
+        <span>__________________________</span>
+        
+        <h1>Decendant Selector</h1>
+        Table of content
+        <section>
+            <ol>
+            <li>Article 1</li>
+            <li>Article 2</li>
+            <li>Article 3</li>
+            </ol>
+        </section>
+        <h2> shopping list</h2>
+        <article>
+            <ul>
+                <li>Cookies</li>
+                <li>Cake</li>
+                <li>Pie</li>
+
+            </ul>
+
+        </article>
+        
+    </body>
+    </html>

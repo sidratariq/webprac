@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+        ul li {
+            list-style: none;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            width: 200px;
+            margin-bottom: 1px;
+
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+            color: purple;
+        }
+
+        header li:nth-child(3) {
+            font-size: 24px;
+        }
+
+        section div:nth-child(odd) {
+            background-color: gray;
+        }
+
+        section div:nth-child(4):hover {
+            cursor: pointer;
+            background-color: green;
+        }
+    </style>
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>
+        pseudo classes course
+    </h1>
+    <header>
+        <ul>
+            <li>
+                <a href="/">Home </a>
+            </li>
+            <li>
+                <a href="https://auth.freecodecamp.org/login?state=XesGizJRwxE1aZy0DF2Ora1CojW65JzZ&client=aUDv9jVqTfxBRE1l60NA5Af7yTCGE4cy&protocol=oauth2&response_type=code&redirect_uri=http%3A%2F%2Fwww.freecodecamp.org%2Fauth%2Fauth0%2Fcallback&scope=openid%20profile%20email"
+                    target="_blank"> SITE</a>
+            </li>
+            <li>
+                <a href="https://auth.freecodecamp.org/login?state=XesGizJRwxE1aZy0DF2Ora1CojW65JzZ&client=aUDv9jVqTfxBRE1l60NA5Af7yTCGE4cy&protocol=oauth2&response_type=code&redirect_uri=http%3A%2F%2Fwww.freecodecamp.org%2Fauth%2Fauth0%2Fcallback&scope=openid%20profile%20email">SITE</a>
+            </li>
+
+        </ul>
+
+    </header>
+
+    <section>
+        <ul>
+            <div>
+                <li>DIv1</li>
+            </div>
+
+            <div>
+                <li>DIv1</li>
+            </div>
+
+            <div>
+                <li>DIv1</li>
+            </div>
+
+            <div>
+                    <li>DIv1</li>
+                </div>
+            
+                <div>
+                        <li>DIv1</li>
+                    </div>
+
+        </ul>
+
+    </section>
+</body>
+
+</html>
